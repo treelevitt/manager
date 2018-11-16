@@ -5,7 +5,6 @@ import LoginStack from './LoginStack';
 const RootStack = createStackNavigator({
     Login: LoginStack,
     Employees: EmployeeStack
-    
     },
 
     {
@@ -15,6 +14,5 @@ const RootStack = createStackNavigator({
         }
     }
 );
-
 
 export default RootStack;

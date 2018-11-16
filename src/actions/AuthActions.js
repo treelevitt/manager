@@ -1,5 +1,4 @@
 import firebase from 'firebase';
-import NavigationService from '../NavigationService';
 import { 
     EMAIL_CHANGED, 
     PASSWORD_CHANGED,
@@ -7,6 +6,7 @@ import {
     LOGIN_USER_FAIL, 
     LOGIN_USER
 } from './types';
+import NavigationService from '../NavigationService';
 
 export const emailChanged = (text) => {
     return {

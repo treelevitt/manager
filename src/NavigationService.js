@@ -19,5 +19,5 @@ function navigate(routeName, params) {
 
 export default {
   navigate,
-  setTopLevelNavigator,
+  setTopLevelNavigator
 };
