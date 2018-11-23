@@ -22,10 +22,10 @@ class EmployeeEdit extends Component {
     }
 
     onButtonPress() {
-        //const { name, phone, shift, uid } = this.props;
-        const { name, phone, shift, uid } = this.props.navigation.setParams('employee');
+        const { name, phone, shift } = this.props;
+        const { uid } = this.props.navigation.getParam('employee');
         this.props.employeeSave({ name, phone, shift, uid });
-        console.log(this.onButtonPress);
+        console.log(employeeSave);
     }
 
     onTextPress() {
@@ -35,7 +35,8 @@ class EmployeeEdit extends Component {
 
     onAccept() {
         const { uid } = this.props.navigation.getParam('employee');
-        this.props.employeeDelete({ uid }); 
+        this.props.employeeDelete({ uid });
+        console.log(this.props.employeeDelete); 
     }
 
     onDecline() {
@@ -43,7 +44,6 @@ class EmployeeEdit extends Component {
     }
 
     render() {
-        console.log(this.props);
 
         return (
             <Card>
