@@ -1,4 +1,3 @@
-# manager
 <h1>Stephen Grider's manager tutorial</h1>
 <h2>Notes:</h2>
 
