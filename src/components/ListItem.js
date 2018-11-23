@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+// import { NavigationActions } from 'react-navigation';
 import { Text, TouchableWithoutFeedback, View } from 'react-native';
 import { CardSection } from './common';
 import NavigationService from '../NavigationService';
 
 class ListItem extends Component {
     onRowPress() {
-        const employee = this.props.employee;
-        NavigationService.navigate('EditScreen', employee);
+        NavigationService.navigate(
+            'EditScreen', { employee: this.props.employee }
+        );
     }
 
     render() {
