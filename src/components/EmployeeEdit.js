@@ -44,7 +44,6 @@ class EmployeeEdit extends Component {
     }
 
     render() {
-
         return (
             <Card>
                 <EmployeeForm {...this.props} />
