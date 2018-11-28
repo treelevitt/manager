@@ -10,12 +10,7 @@ import NavigationService from './NavigationService';
 class App extends Component {
     componentWillMount() {
         const config = {
-            apiKey: 'AIzaSyDWp-fpdFqmOzbgmqdfPl-0NNbllGpILLA',
-            authDomain: 'manager-531bd.firebaseapp.com',
-            databaseURL: 'https://manager-531bd.firebaseio.com',
-            projectId: 'manager-531bd',
-            storageBucket: 'manager-531bd.appspot.com',
-            messagingSenderId: '616097523198'
+            //insert your own Firebase credentials
           };
 
           firebase.initializeApp(config);
