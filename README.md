@@ -2,6 +2,7 @@
 <h2>Notes:</h2>
 
 <p>For this project, I used React Navigation, not React Native Redux Flux.</p>
+<p>If you are downloading this to run on your own simulator, make sure you insert your own Firebase credentials in ./src/App.js.</p>
 
 <h3>Biggest challenges:</h3>
 <p>
